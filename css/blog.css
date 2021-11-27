@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "comforta";
+    src: url(/font/ACME2/static/Comfortaa-Regular.ttf);
+}
+
+.contenedorBlog1  {
+   display: flex;
+   font-family: "comforta";
+   margin-left: 150px;
+}
+
+
+.contenedorBlog2  {
+    display: flex;
+    font-family: "comforta";
+    margin-left: 4px;
+ }
+
+
+ /* dimenciones de las imagenes de la seccion blog */
+.blog1 img , .blog2 img{
+    height:200px ;
+    width: 280px;
+
+}
+
+.blog1  {
+    height: 500px;
+    width: 400px;
+    overflow: auto;
+    border: 2px solid white;
+    margin-right: 100px ;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
+.blog2  {
+    height: 500px;
+    width: 400px;
+    overflow: auto;
+    background-color: white;
+    border: 2px solid white;
+    margin-right:-25px ;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+    color: rgb(0, 0, 0);
+
+}
+
+/* dimenciones de texto de las noticias */
+p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.enlacesInferiore{
+
+    margin-left: 0px;
+    margin-top: 70px;
+    color: white;
+    font-size: 16px;
+}
+
+.enlacesInferiore a:hover {
+    text-decoration: none;
+    color: rgb(231, 228, 15);
+  }
+  
+  .enlacesInferiore a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .contacto {
+    margin-left: 50px;
+    margin-top: 70px;
+    color: white;
+    font-size: 18px;
+    
+  }
+  
+  .contacto p {
+    font-size: 18px;
+    transition: 1s;
+  }
+  .contacto p:hover {
+    
+    font-size: 22px;
+    color: white;
+   
+  }
+
+  .h3{
+    font-weight: bolder;
+    color: white;
+  }

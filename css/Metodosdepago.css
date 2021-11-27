@@ -1,0 +1,185 @@
+
+@font-face {
+  font-family: "comforta";
+  src: url(/Fonts/Comfortaa-VariableFont_wght.ttf);
+}
+body {
+  background: darkcyan;
+  font-family: "comforta";
+  background-image: url(/Img/body1.5.2.jpg);
+}
+
+.metodos {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.titulo{
+  margin-top: -70px;
+font-size: 30px;
+text-align: center;
+color: white;
+font-size: 30px;
+}
+
+.fa-arrow-circle-left{
+
+  font-size: 50px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+h1{
+  margin-top: 10px;
+}
+
+/* animaciones de pagos  */
+.tarjeta img {
+  margin-left: px;
+  height: 280px;
+  width: 300px;
+  border-radius: 10px;
+  transition: 1s;
+  
+}
+p{
+  color: white;
+}
+
+/* .tarjeta img:hover {
+  padding: 10px;
+  border-radius: 40%;
+  border: rgb(68, 255, 35) 5px solid;
+  opacity: 70%;;
+} */
+
+/* .tarjeta {
+  margin-left: -10px;
+  height: 280px;
+  width: 300px;
+  transition: 1s;
+}
+
+.tarjeta:hover{ 
+  font-size: 25px;
+} */
+.yape img {
+  margin-left: -150px;
+  height: 280px;
+  width: 300px;
+  border-radius: 10px;
+  transition: 1s;
+  
+}
+
+.yape img:hover {
+  padding: 10px;
+  border-radius: 40%;
+  border: rgb(68, 255, 35) 5px solid;
+  opacity: 70%;;
+}
+
+.yape {
+  margin-left: 150px;
+  height: 280px;
+  width: 300px;
+  transition: 1s;
+}
+
+.yape:hover{ 
+  font-size: 25px;
+}
+
+
+
+.paypal img {
+  margin-left: -150px;
+  height: 280px;
+  width: 300px;
+  border-radius: 10px;
+  transition: 1s;
+  
+}
+
+.paypal img:hover {
+  padding: 10px;
+  border-radius: 40%;
+  border: rgb(68, 255, 35) 5px solid;
+  opacity: 70%;;
+}
+
+.paypal {
+  margin-left: 150px;
+  height: 280px;
+  width: 300px;
+  transition: 1s;
+}
+
+.paypal:hover{ 
+  font-size: 25px;
+}
+
+/**/
+.tarjeta img {
+  margin-left: -170px;
+  height: 280px;
+  width: 300px;
+  border-radius: 10px;
+  transition: 1s;
+  
+}
+
+.tarjeta img:hover {
+  padding: 10px;
+  border-radius: 40%;
+  border: rgb(68, 255, 35) 5px solid;
+  opacity: 70%;;
+}
+
+.tarjeta {
+  margin-left: 150px;
+  height: 280px;
+  width: 300px;
+  transition: 1s;
+}
+
+.tarjeta:hover{ 
+  font-size: 25px;
+}
+
+/* fin de animaciones de pago */
+/* .descripcion1 {
+  width: 110%;
+  margin-bottom: 80px;
+  margin-left: -10px;
+  text-decoration: wavy;
+ 
+} */
+.descripcion1 {
+  width: 110%;
+  margin-bottom: 80px;
+  margin-left: -170px;
+ 
+ 
+  
+}
+.descripcion2 {
+  width: 110%;
+  margin-bottom: 80px;
+  margin-left: -160px;
+  
+}
+
+.descripcion3 {
+  width: 110%;
+  margin-bottom: 80px;
+  margin-left: -170px;;
+  
+}
+
+p{
+  text-align: center;
+}

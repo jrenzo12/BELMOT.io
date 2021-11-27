@@ -1,0 +1,14 @@
+.boton{
+    margin-top: 100px;
+    background-color:white ;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    border: 1px solid rgb(143, 143, 143);
+    padding: 3px;
+    
+}
+
+.cuaedro{
+    margin-bottom: 100000px;
+}

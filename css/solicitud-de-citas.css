@@ -1,0 +1,329 @@
+@font-face {
+    font-family: "comforta";
+    src: url(/Fonts/Comfortaa-VariableFont_wght.ttf);
+  }
+  
+  
+  .titulo {
+  
+  
+    color: white;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    
+    
+  }
+  
+  
+  .titulo2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom:50px;
+    margin-left: 170px;
+    
+    
+    
+  }
+  
+  .titulo22 {
+    
+   
+   
+   border-radius: 10px;
+   background-image:url(/Img/hori.jpg) ;
+   margin-bottom: 50px;
+   
+   
+   
+  
+  }
+  
+  
+  .abajo{
+  
+   margin-bottom: 90px;
+  
+  }
+  
+  .solicitudcita {
+    
+    background: cadetblue;
+    max-width: 90%;
+    margin-left: 30px;
+    height: 680px;
+    padding: 25px;
+    border-radius: 10px;
+    max-height: 100%;
+  
+    
+    
+  }
+  
+  .imgsoli{
+    border-radius: 10px;
+  margin-bottom: -100px;
+  margin-top: 20px;
+  
+  
+  }
+  
+  /* dimencion de imagen "Hospital Belmot" */
+  .imgsoli img{
+  
+    height:600px ;
+    width: 200px;
+  }
+  
+  
+  .imgsoli img{
+    border-radius: 10px;
+  }
+  
+  
+  /* dimenciones de los titulos para ingresar datos */
+  .nombre{
+    font-size: 25px;
+  
+    
+  }
+  
+  .dni{
+    font-size: 25px;
+    padding-bottom: 5px;
+    
+  }
+  .correo{
+    font-size: 25px;
+    padding-bottom: 5px;
+  margin-bottom: 30px;}
+  .numero{
+    font-size: 25px;
+    padding-bottom: 5px;}
+  .conociste{
+    font-size: 25px;
+    padding-bottom: 5p
+    
+  }
+  .asunto{
+    font-size: 25px;
+    padding-bottom: 5p
+  }
+  .comentarios{
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+  
+  
+  
+  /* nombre */
+  
+  
+  
+  /* las cajas de ingreso de datos */
+  input{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: 20px;
+    width: 300px;
+    border-radius: 5px; 
+    border-style: none;
+  
+  }
+  
+  /* cuadro de texto asunto */
+  textarea{
+  
+    border-style: none;
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+  
+  }
+  
+  /* conoces seccion de selecionar opciones */
+  select{
+  
+    height: 25px;
+    width: 300px;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 8px;
+  
+  
+  }
+  
+  select option{
+  
+  font-size:20px;
+  
+  }
+  
+  /* boton enviar */
+  
+  
+  .botones .botones1   {
+    display: flex;
+    background-color: white;
+    
+    
+    
+  }
+  
+  button {
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .botones{
+    margin-top: 28px;
+    margin-left: -350px;
+  }
+  .botones1{
+    margin-left: -200px;
+    margin-top: -29px;
+  }
+  .botones2{
+    margin-left: -20px;
+    margin-top: -28px;
+  }
+  
+  .botones a{
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  
+  
+    /* nivelar los titulos , donde se ingresan los datos */
+  .cajanombre{
+  
+    margin-top: -10px;
+    
+    margin-right: 400px;
+  
+  }
+  .cajaconociste{
+  
+    margin-bottom: -50px;
+    
+    margin-right: 400px;
+  
+  }
+  
+  
+  .ap4{
+    margin-left: 250px;
+  }
+  
+  .ap3{
+    margin-top: -280px;
+    margin-left: 700px;
+  }
+  
+  
+  
+  .solicitudcita .texto {
+    color: black;
+    font-size: 20px;
+  }
+  /* .boton:hover {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 30%;
+    color: rgb(0, 0, 0);
+    background-color: red;
+  }
+  
+  .boton {
+    margin-left: 200px;
+    text-decoration: none;
+    transition: 1.5s;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 5px;
+  } */
+  
+  
+  
+  
+  .imgsoli{
+  
+   display: block;
+   height: 00px;
+   border-radius: 10px;
+   
+  }
+  
+  
+  /* validacion de solicitud de cita */
+  .in1{
+    font-size: 12px;
+    
+    font-weight: bolder;
+  }
+  
+  .in2{
+    font-size: 12px;
+    
+    font-weight: bolder;
+  }
+  .in3{
+    font-size: 12px;
+    
+    font-weight: bolder;
+  }
+  .in4{
+    font-size: 12px;
+    
+    font-weight: bolder;
+  }
+  .in5{
+    font-size: 12px;
+    display: block;
+    font-weight: bolder;
+  }
+  .in6{
+    font-size: 12px;
+    display: block;
+    font-weight: bolder;
+  }
+  
+  
+  /* enlace de encuesta */
+  h5{
+  
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+  }
+  
+  
+  h5 a:hover{
+    opacity: 90%;
+    font-size: 35px;
+  }
+  
+  
+  h5 a{
+    
+    color: rgb(172, 22, 2);
+    transition: all 0.8s;
+  }
+  
+  
+  /* boton pagar  */
+  
+  #btnPagar{
+  
+  margin-top: -20px;
+  
+  }

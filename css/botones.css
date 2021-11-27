@@ -1,0 +1,230 @@
+
+@font-face {
+    font-family: "comforta";
+    src: url(/Fonts/Comfortaa-VariableFont_wght.ttf);
+}
+body{
+    /* background: white; */
+    background-image: url(/Img/body1.5.2.jpg);
+    margin-left:100px ;
+    margin-right: 100px ;
+    font-family: "comforta";
+}
+
+/* .contenedorGeneral{
+    
+} */
+
+.banner{
+    border-radius: 20px;
+    padding: 10px;
+
+   
+}
+
+.color{
+    background: #4badb4;
+    padding-bottom: 2px;
+    border-radius: 30px;
+    margin-left: -50px;    
+    margin-right: -60px; 
+    max-width: 120%;
+
+}
+/* dimenciones de logo */
+.logo{
+    height: 60px ;
+    width: 60px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 100px;
+   
+   
+}
+.botomInicio{
+/* position: sticky; */
+/* top:5px; */
+/* border: 5px solid rgb(161, 161, 161);  */
+background-color: #ffffff;
+color: #4badb4;
+margin-left:100px ;
+margin-right: 70px;
+margin-top: -55px;
+margin-bottom: 30px;
+padding: 15px; 
+border-radius: 10px; 
+font-size: 95%;
+font-family: "cenzil";
+font-family: "comforta";
+max-width: 120%;
+
+}
+
+
+/* dimenciones de botones */
+/* INICIO */
+
+/* boton1 */
+.boton1:hover{
+    
+    background-color: #4badb4;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30%;
+    color: rgb(255, 255, 255);
+   
+}
+
+.boton1{
+    
+    margin-left:120px;
+    text-decoration: none;
+    transition: 1.5s;
+    color:#4badb4;
+    max-width: 100%;
+}
+/* boton2 */
+
+
+.boton2:hover{
+    background-color: #4badb4;
+    font-size: 20px;
+    border-radius: 30%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    
+    
+}
+
+.boton2{
+    margin-left: 90px;
+    text-decoration: none;
+    transition: 1.5s;
+    color:#4badb4;
+    max-width: 100%;
+}
+
+/* boton 03  */
+
+.boton3:hover{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30%;
+    background-color: #4badb4;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    
+}
+
+.boton3{
+    margin-left: 100px;
+    text-decoration: none;
+    transition: 1.5s;
+    color:#4badb4;
+    max-width: 100%;
+}
+
+/* boton 04 */
+.boton4:hover{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30%;
+    background-color: #4badb4;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    
+}
+
+.boton4{
+    margin-left: 90px;
+    text-decoration: none;
+    transition: 1.5s;
+    color:#4badb4;
+    max-width: 100%;
+}
+/* boton 05 */
+.boton5:hover{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30%;
+    background-color: #4badb4;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    
+}
+
+.boton5{
+    margin-left: 100px;
+    text-decoration: none;
+    transition: 1.5s;
+    color:#4badb4;
+    max-width: 100%;
+}
+.boton6:hover{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30%;
+    background-color: #4badb4;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    
+}
+
+.boton6{
+    margin-left: 100px;
+    text-decoration: none;
+    transition: 1.5s;
+    color:#4badb4;
+    max-width: 100%;
+}
+
+.banner{
+    width: 1150px;
+    height:500px;
+    margin-top: 15px;
+    margin-left:70px;
+   
+}
+
+
+
+/* Especialidades h1 de inicio y v */
+h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "comforta";
+    color: rgb(255, 255, 255);
+}
+
+h1 p{
+  
+        font-family: "comforta";
+    }
+/* parrafo de especialidades / inicio */
+.articulo0 p {
+
+        font-family: "comforta";
+        margin-left: 5px;
+        margin-right: 5px;
+
+        font-size: 15px;
+}
+
+/* parrafo de especialidades / inicio */
+.pp{
+    color: rgb(255, 255, 255);
+}
+/* parrafo de especialidades / Especialidades */
+.ppp{
+    color: rgb(255, 255, 255);
+}
+
+h4{
+    font-size: 50px;
+}

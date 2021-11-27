@@ -1,0 +1,190 @@
+.titulo {
+    color: white;
+    font-size: 60px;
+    margin-top: -35px;
+    margin-bottom: -5px;
+    
+  
+  }
+  .pagos {
+  
+    background-color: cadetblue;
+    font-size: 20px;
+    width: 800px;
+    height:820px;
+    margin: 10px 225px;
+    margin-left: 280px;
+  
+    border-radius: 10px;
+  }
+  /* cuadors fieldset */
+  .fiel1  {
+    background-image: url(/Img/body1.jpg);
+    border-radius: 20px;
+    border: white 5px solid;
+    color: rgb(255, 255, 255);
+  }
+  
+  .fiel2  {
+    background-image: url(/Img/body1.jpg);
+    border-radius: 20px;
+    border: #ffffff  5px solid;
+    color: rgb(255, 255, 255);
+  }
+  
+  .fiel3  {
+    background-image: url(/Img/body1.jpg);
+    border-radius: 20px;
+    border: #ffffff  5px solid;
+    color: rgb(255, 255, 255);
+  }
+  /***********************************************/
+  .fiel1-5  {
+  
+  
+    color: rgb(3, 3, 3);
+  }
+  
+  
+  .fiel2-5  {
+  
+  
+    color: rgb(0, 0, 0);
+  }
+  
+  .fiel3-5  {
+  
+  
+    color: rgb(0, 0, 0);
+  }
+  
+  /**************************************************************/
+  
+  /* fin de cuadors fieldset */
+  .datos {
+    
+    border-style: #4badb4 5px solid;
+  }
+  /* .titular {
+  
+  }
+  .datoscita {
+  
+  } */
+  
+  
+  
+  
+  .hospital{
+    text-align: center;
+    background:white;
+    margin-left: 100px;
+    margin-right: 500px;
+    margin-top: -22px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+    border: rgb(153, 153, 153) 1px solid;
+  }
+  
+  
+  .hospital2{
+    text-align: center;
+    background:white;
+    margin-left: 50px;
+    margin-right: 600px;
+    margin-top: -22px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+    border: rgb(153, 153, 153) 1px solid;
+  }
+  
+  .hospital3{
+    text-align: center;
+    background:white;
+    margin-left: 155px;
+    margin-right: 500px;
+    margin-top: -22px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+    border: rgb(153, 153, 153) 1px solid;
+  }
+  .hospital4{
+    text-align: center;
+    background:white;
+    margin-left: 155px;
+    margin-right: 500px;
+    margin-top: -22px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+    border: rgb(153, 153, 153) 1px solid;
+  }
+  
+  .moverboton{
+    margin-top: 10px;
+  }
+  
+  .boton{
+  margin-top: 10px;
+  margin-left: 360px;
+  background-color:rgb(23, 90, 197) ;
+  color: white;
+  
+  }
+  
+  .boton:hover{
+  
+    background-color:gainsboro;
+    color: black;
+  
+  }
+  
+  .botonB{
+  
+    margin-left: 350px;
+  
+  
+  background-color:rgb(23, 90, 197) ;
+  color: white;
+  
+  
+    
+    }
+    
+    .botonB:hover{
+    
+      background-color:gainsboro;
+      color: black;
+    
+    }
+  
+    .moverboton1{
+  
+      margin-top: -10px;
+  
+    }
+  
+  input {
+  
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 5px;
+    height: 20px;
+  }
+  
+  select{
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 5px;
+  }
+  
+  
+  .generar{
+    background: rgb(76, 123, 253);
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }

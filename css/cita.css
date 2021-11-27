@@ -1,0 +1,22 @@
+hr{
+
+    color: white;
+    font-weight: bolder;
+    height: 5px;
+    background:white ;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h1{
+
+font-size: 50px;
+
+}
+
+p{
+    font-family: "comforta";
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}

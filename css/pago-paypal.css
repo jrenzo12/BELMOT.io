@@ -1,0 +1,52 @@
+.gh{
+
+    color: #ffffff;
+    font-size: 45px;
+    text-align: left;
+}
+
+.gg{
+
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+    margin-top: -30px;
+}
+
+
+.en{
+font-size: 30px;
+color:  #4087d8 ;
+
+text-decoration: none;
+font-weight: bolder;
+background-color:  #ffffff;
+padding: 20px;
+margin-left: 450px;
+border-radius: 20px;
+
+}
+
+.pag{
+    margin-top: 120px;
+margin-bottom: 120px;
+}
+
+
+
+/* ******************************************************* */
+
+.en:hover{
+font-size: 30px;
+color:#ffffff ;
+margin-left: 400px;
+text-decoration: none;
+background-color:  #4087d8 ;
+margin-left: 450px;
+border-radius: 20px;
+
+}
+
+
+
+

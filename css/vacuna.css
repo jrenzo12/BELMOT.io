@@ -1,0 +1,29 @@
+.en{
+    font-size: 30px;
+    color:  #ffffff ;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color:  #ff1c1c;
+    padding: 20px;
+    margin-left: 350px;
+    border-radius: 20px;
+    
+    }
+    
+    .pag{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    }
+    
+    
+    /* ******************************************************* */
+    
+    .en:hover{
+    font-size: 30px;
+    color:#ff0000 ;
+    text-decoration: none;
+    background-color:  #ffffff ;
+    margin-left: 350px;
+    border-radius: 20px;
+    
+     }     

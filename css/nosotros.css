@@ -1,0 +1,133 @@
+.sec{
+    display: flex;
+    margin-left: 190px ;
+    margin-right: 180px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    font-family: "comforta";
+   
+  
+  }
+  
+  .sec2{
+    display: flex;
+    margin-left: 180px ;
+    margin-right: 290px;
+    margin-top: -20px;
+    margin-bottom: 100px;
+    font-family: "comforta";
+   
+  
+  }
+  
+  
+  .doc1{
+    height: 280px;
+    width: 250px;
+    margin-left: 4px;
+  
+   
+  }
+  
+  .doc2{
+  
+    display: flex;
+    width: 250px;
+    height: 280px;
+    margin-left: 10px;
+  
+   
+  }
+  
+  .doc3{
+  
+    display: flex;
+    width: 250px;
+    height: 280px;
+    padding-right: 20px;
+   
+  }
+  
+  .doc4{
+  
+    display: flex;
+    width: 250px;
+    height: 280px;
+    padding-right: 20px;
+    
+   
+  }
+  .doc5{
+  
+    display: flex;
+    width: 250px;
+    height: 280px;
+    padding-right: 20px;
+   
+  }
+  .doc6{
+  
+    display: flex;
+    width: 240px;
+    height: 280px;
+    padding-right: 20px;
+   
+  }
+  
+  .parrafodoc{
+  
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+   
+    
+    
+  }
+  
+  
+  .sec section{
+    background-color: white;
+    padding: 20px;
+    margin-right: 30px;
+    margin-left: -10px;
+    border-radius: 12px;
+   
+  }
+  
+  .sec2 section{
+    
+    background-color: white;
+    padding: 20px;
+    margin-right: 30px;
+    margin-left: -10px;
+    border-radius: 12px;
+  
+  }
+  
+  p{
+  
+    font-size: 80px;
+  }
+  
+  /* tamaño de cparrafo en docotores */
+  #doc{
+    font-size: 14px;
+    color: black;
+  }
+  
+  .reservad{
+    
+  
+  
+      margin: auto;
+      margin-top: 300px;
+      background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    text-align: center;
+    margin-left: -15px;
+      margin-right: 20px;
+      color:#1F628E ;
+      font-weight: bold;
+      font-size: 16px;
+  
+  }

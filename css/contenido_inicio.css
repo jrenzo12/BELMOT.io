@@ -1,0 +1,305 @@
+
+/* IMAGENES Y PARRAFOS DE ESPECIALIDADES */
+
+@font-face {
+    font-family: "comforta";
+    src: url(/Prototipo_pagina_index/Fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+
+/* Dimenciones de cada imagen de las especialidades */
+.especialidad1{
+
+    width: 150px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.especialidad2{
+
+    width: 150px;
+    height: 200px;
+  
+    margin-left: 10px;
+}
+
+.especialidad3{
+
+    width: 150px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.parrafoEspecialidades1{
+
+   
+    margin-top: -160px;
+    margin-bottom: 120px;
+    margin-left: 180px;
+    margin-right: 10px;
+    color: black;
+    font-size: 100%;
+    max-width: 120%;
+}
+
+.parrafoEspecialidades2{
+
+   
+    margin-top: -160px;
+    margin-bottom: 120px;
+    margin-left: 180px;
+    margin-right: 10px;
+    color: black;
+    font-size: 100%;
+    max-width: 120%;
+}
+
+.parrafoEspecialidades3{
+
+   
+    margin-top: -160px;
+    margin-bottom: 120px;
+    margin-left: 180px;
+    margin-right: 10px;
+    color: black;
+    font-size: 100%;
+    max-width: 120%;
+}
+
+
+/* para que todos los contenidos de los parrafos tengan el mismo estilo de letra */
+.section article{    
+        font-family: "comforta";
+     
+}
+
+
+.articulo01{
+
+    padding: 10px;
+    background-color: #ffffff;
+    height: 200px;
+    border-radius: 15px;
+    max-width: 100%;
+    max-width: 120%;
+}
+
+.articulo02{
+    
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    height: 200px;
+    border-radius: 15px;
+    max-width: 120%;
+}
+
+.articulo03{
+    
+    margin-top: 10px;
+    margin-bottom: 110px;
+    padding: 10px;
+    background-color: #ffffff;
+    height: 200px;
+    border-radius: 15px;
+  
+    max-width: 120%;
+}
+
+
+
+/* BOTON 01 de especialidades */
+.Boton1{
+    text-align: center;
+    text-decoration: none;
+    max-width: 120%;
+    width: 80px;
+    
+}
+/* BOTON 01 de especialidades dimenciones y animacion */
+.Boton1_5:hover{
+    background-color: rgb(14, 48, 141);
+    color: rgb(230, 214, 170);
+
+ }
+.Boton1_5{
+   background-color: rgb(230, 214, 170);
+   margin-left: 420px;
+   margin-right: 420px;
+   margin-top: -30px;
+   border-radius: 20px;
+   color: rgb(14, 48, 141);
+   padding: 10px;
+   transition: 1s;
+   font-size: 100%;
+   max-width: 120%;
+   width: 290px;
+   margin: auto;
+  
+  
+}
+
+/* IMAGENES , PARRAFOS y posiociones de div DE DOCTORES */
+
+.sec{
+    display: flex;
+    margin-left: 120px ;
+    margin-right: 120px;
+    margin-top: 90px;
+    margin-bottom: 200px;
+    font-family: "comforta";
+   
+
+}
+
+/* dimenciones de las imagenes de los doctores */
+.doc1{
+    height: 280px;
+    width: 250px;
+    margin-left: 4px;
+   margin-left: 50px;
+ 
+   
+}
+
+.doc2{
+
+    display: flex;
+    width: 250px;
+    height: 280px;
+    margin-left: 10px;
+  
+   
+}
+
+.doc3{
+
+    display: flex;
+    width: 250px;
+    height: 280px;
+    padding-right: 20px;
+   
+}
+
+/* dimenciones de parrafo de doctores */
+.parrafodoc{
+
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.sec section{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-right: 30px;
+    margin-left: -10px;
+    border-radius: 12px;
+  
+}
+
+
+/* boton02 Conocenos */
+
+
+.Boton2{
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.Boton2_5:hover{
+  background-color: rgb(2, 2, 2);
+  color: rgb(182, 149, 60);
+   
+ }
+
+.Boton2_5{
+   background-color: rgb(182, 149, 60);
+   margin-left: 420px;
+   margin-right: 420px;
+   margin-top: -130px;
+   border-radius: 20px;
+   color: rgb(0, 0, 0);
+   padding: 10px;
+   transition: 2s;
+   font-size: 18px;
+  
+}
+
+/* Mision y Vision */
+
+h2{
+    font-size: 40px;
+    margin-bottom: -10px;
+    text-align: center;
+    
+}
+
+.sion{
+    display: flex;
+    margin-top:90px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    font-family: "comforta";
+    color: black;
+    font-size: 18px;
+}
+
+.cajamision{
+    margin-left: 80px;
+    text-align: center;
+    
+    
+}
+
+.cajavision{
+    margin-right: 80px;
+    text-align: center;
+}
+
+.cajamision article{
+   background-color: #ffffff;
+   padding: 10px;
+   margin-right: 10px;
+   margin-left: -50px ;
+   border-radius: 10px;
+   
+}
+
+.cajavision article{
+
+    background-color: #ffffff;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+/* Dimencioes de texto Visin y Mision */
+.cajamision p{
+width: 500px;
+font-size: 18px;
+
+}
+
+.cajavision p{
+   width: 500px;
+   font-size: 18px;
+}
+
+
+
+
+
+/* titulo de especialidades */
+
+.secction1{
+
+
+    border-radius: 5px;
+    margin-left: -60px;
+    margin-right: -60px;
+    margin-bottom: 10px;
+}

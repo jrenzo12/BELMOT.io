@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagos Tarjeta</title>
+    <link rel="stylesheet"  href="/css/Botones_De_inicio.css">
+    <link rel="stylesheet" href="/css/nos.css">
+    <link rel="stylesheet" href="/css/pagos-tarjeta.css">
+    <link rel="icon" type="image/vnd.microsoft.ico" href="/Img/logo04.png">
+    <script src="https://kit.fontawesome.com/6709411951.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+
+   <div class="contenedorGeneral">
+<div class="color">
+  <img class="logo" src="/Img/logo10.ico" alt="logo de hospital" >
+  
+
+    <div class="botomInicio">
+      <header>
+           
+        <a class="boton1"  href="/index.html">Inicio</a>
+        <a class="boton2"  href="/private/pagina1/Nosotros.html">Nosotros</a>
+        <a class="boton3"  href="/private/pagina2/especialidades.html">Especialidades</a>
+        <a class="boton4"  href="solicituddecitas.html">Citas en linea</a>
+        <a class="boton5"  href="/private/pagina4/vacuna.html">Vacunación</a>
+        <a class="boton4"  href="/private/pagina5/blog.html">Blog</a>
+        
+    </header>
+
+    </div>
+      </div>
+      <img class="banner" src="" alt="banner principal" id="baner">  <!-- imagen de banner -->
+
+
+
+    
+    
+      <div class="titulo"><p>Pagos con Tarjeta:</p></div>
+      <div class="pagos" >
+         
+          <h2> <fieldset class="fiel1"> 1.Datos de la Tarjeta </fieldset></h2>
+      <div class="datos"><fieldset class="fiel1-5">
+          <label for="cbot">Marca: </label>
+          <select name="cboTarjeta" id="cboTarjeta" required>
+              <option value="Tarjeta Clasica">Tarjeta Clasica</option>
+              <option value="Tarjeta Dorada">Tarjeta Dorada</option>
+              <option value="Tarjeta Platinum">Tarjeta Platinum</option>
+              <option value="Tarjeta Blac">Tarjeta Black</option>
+              <option value="Tarjeta Virtual">Tarjeta Virtual</option>
+          </select>
+          <div>
+          <label for="txtnumeroTar">Nº de Tarjeta:</label><input type="text" name="txtnumeroTar" id="numeroTar" placeholder="" minlength="18" maxlength="18" required><br> <span class="in1"></span>
+          <label for="txtnumeroSe">Codigo de Seguridad:</label><input type="text" name="txtnumeroSe" id="numeroSe" placeholder="" minlength="8" maxlength="8" required><br>
+          <label for="txtFechaEx">Fecha de Expiracion:</label><input type="date" name="txtFechaEx" id="FechaEx" placeholder="" required><br>
+          </div>
+      </fieldset></div>
+      
+      <h2> <fieldset class="fiel2" >2.Titular de la Tarjeta </fieldset></h2>
+  <div class="titular"> 
+      <fieldset class="fiel2-5">
+    
+          <label for="txtNombre">Nombre:</label><input type="text" name="txtNombre" name="txtNombre" id="txtNombre" minlength="10" maxlength="45" placeholder="" required><br>
+          <label for="txtApellido">Apellido:</label><input type="text" name="txtApellido" name="txtApellido" id="txtApellido" minlength="10" maxlength="45" placeholder="" required><br>
+          <label for="txtEmail">Email:</label><input type="text" name="txtEmail" name="txtEmail" id="txtEmail" minlength="6" maxlength="30" placeholder="" required><br>
+          <label for="txtVerificacion">Verificacion Email:</label><input type="text" name="txtVerificacion"  id="txtVerificacion" minlength="6" maxlength="30" placeholder="" required><br>
+        
+    </fieldset>
+  </div>
+  <h2><fieldset class="fiel3"> Datos de Cita:</fieldset></h2>
+          <div class="datoscita">
+              <fieldset class="fiel3-5">
+          <label for="txtHospital">Hospital:</label> <input type="text"  name="txtCitaHos" id="txtCitaHos" value="BELMOT" minlength="7" maxlength="7" readonly><br> 
+          <button for="txtcita"   id="button" class="generar" name="" >Generar ID de Cita:</button> <input type="text"  name="txtnumCita" id="txtnumCita" placeholder="🡰 Haz clic" minlength="8" maxlength="8" readonly>  <br>
+           <label for="txtcobro">Tipo de modena:</label><input type="text"  name="txtcobro" id="txtcobro" value="Soles" minlength="5" maxlength="5" readonly ><br>
+          <label for="txtMonto">Monto de Cita:<input type="text" name="txtMonto" id="txtMonto" value="S/50.00" minlength="2" maxlength="2" readonly ><br>
+        </fieldset>
+        </div>
+            
+  <div class="moverboton">
+     
+      
+    <input class="botonB" type="button" value="VERIFICAR" id="tbnEnviar">
+    </div>
+  
+  <div class="moverboton">
+     
+      
+  <input class="boton" type="button" value="PAGAR" id="tbnPagar">
+
+
+
+</div>      
+</div>  
+
+
+
+
+<aside>
+
+  <!-- espacio de publicidad -->
+
+</aside>
+
+<div class="divFooter">
+    <footer>
+     
+     <div>
+       <img class="imgpagos" src="/Img/pagos.png" alt="Metodos de pagos">
+     </div>
+      
+     <div class="enlacesInferiores">
+             
+        <h3>Enlaces importantes</h3>
+        <ul>
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/private/pagina1/Nosotros.html">Nosotros</a></li>
+          <li><a href="/private/pagina2/especialidades.html">Especialidades</a></li>
+          <li><a href="/private/pagina3/solicituddecitas.html">Citas en linea</a></li>
+          <li><a href="/private/pagina4/vacuna.html">Vacunación</a></li>
+          <li><a href="/private/login/inicio_sesion.html">login</a></li>
+          
+       </ul>
+     
+     </div>
+    
+    
+     <div class="contactos"> 
+                               
+        <h3>Contactos</h3>
+        <p>hospitalbelmot@gmail.com <br>
+        +51 934 456 788 <br>
+        Edificio Belmot Hospital <br>
+        Calle Jiron de la Union N° 291 Lima-Peru</p>
+     </div>
+    
+     <div class="redesSociales">
+         
+    
+        <a href="https://twitter.com/HBelmot" target="_blank"> <i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UC1Tw-IEKYJlEjgg-RxwkYoA" target="_blank"> <i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/hospitalbelmot_oficial/?hl=es-la" target="_blank"> <i class="fab fa-instagram"></i></a>
+        <a href="https://mail.google.com/" target="_blank"> <i class="fas fa-envelope-square"></i></a>
+    
+     </div>
+    
+    
+    
+    
+     </footer>
+     <p class="reservad"> 
+        © Hospital Belmot todos los derechos reservados 2021 ©
+    </p>
+    </div>   
+<script src="/Js/tarjeta.js"></script>
+<script src="/Js/banner.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+ <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+ <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+ <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+ 
+ <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+ <script>
+   // Your web app's Firebase configuration
+   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+   var firebaseConfig = {
+     apiKey: "AIzaSyByaJIxs-CDZlejJXsEQxVxTRxB7LkaDuQ",
+     authDomain: "solicitud-de-cita.firebaseapp.com",
+     databaseURL:"https://bd-pagos-tarjetas-default-rtdb.firebaseio.com/",
+     projectId: "solicitud-de-cita",
+     storageBucket: "solicitud-de-cita.appspot.com",
+     messagingSenderId: "665552640640",
+     appId: "1:665552640640:web:0d79a02e2d7d5347736465",
+     measurementId: "G-0WC286J8WJ"
+   };
+   // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
+   firebase.analytics();
+ 
+ //   declarablamos una valiable para las opciones de aunteticacion
+ const auth=firebase.auth();
+ //declaramos una constante para las opciones de base de datos
+ const database = firebase.database();
+ </script>
+</html>
