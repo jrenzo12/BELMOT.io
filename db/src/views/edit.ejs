@@ -1,0 +1,23 @@
+<%- include("./partials/-header") %>
+ 
+ <!---formulario para llenar datos-->
+  <div class = "col-md-5"><!--columnda de 5-->
+    <dib class = "card"> <!--tarjeta-->
+       <div class = "card-body"><!--contendido del formulario -->
+           <form  action="/edit/<%= task._id %>" method="post"> <!--esto es para los eventos que llenar la  base de datos--->
+               <div class= "form-group"><!--grupo de texto-->
+                   <input type="text" name = "titulo" placeholder="Inserta un titulo" class ="form-control" value = "<%= task.titulo %>">
+               </div>
+               <div class = "form-group"><!--grupo de texto-->
+                 <textarea name="descripcion" cols="80"  placeholder="Insertar descripcion" class ="form-control"><%= task.descripcion %></textarea><!--aqui va la tarea-->
+               </div>
+               <button type="submit" class ="btn btn-primary btn-blok"><!--boton-->
+                 Actualizar
+               </button>
+           </form>
+       </div>
+    </dib>
+
+</div>
+
+<%- include("./partials/-footer") %>

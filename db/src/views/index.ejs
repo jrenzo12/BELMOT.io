@@ -1,0 +1,64 @@
+    <%- include("./partials/-header") %>
+    <!-- <pre>
+         <%- tasks %> <!--aqui se va a pintar la base de datos -->
+
+
+        <!-- </pre> --> -->
+
+
+    <div class="row">
+<!-- formulario para llenar datos -->
+    
+    <div class="col-md-5"> <!--columna columna de 5  -->
+            <dib class="card">  <!---tarjeta-->
+                <div class="card-body"> <!--contenido del formulario-->
+                    <form action="/add" method="post"> <!----Esto e spara los eventos qu ellene la base de datos-->
+                        <div class='form group'><!--grupo de texto-->
+                            <input type="text" name ='titulo' placeholder='inserta un titulo' class='form-control '>
+                        <div class='form group'><!--grupo de texto-->
+                            <textarea name='descripcion' cols="80" class="form-control"  placeholder= 'insertar descripcion'>
+                            </textarea> <!--Aqui va la tarea-->
+                        </div> 
+                        </div>
+                        <br>
+                        <button type='submit' class='btn btn-primary btn-block'>
+                        Agregar
+                        </button><!--boton-->
+                    </form>
+                </div>
+            </dib>
+        </div>
+        <!-- lista de datos -->
+        
+        <div class="col-md-7"> 
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Nº</th>
+                        <th>Titulo</th>
+                        <th>decripcion</th>
+                        <th>Operacion</th>
+
+
+                    </tr>
+                </thead>
+                <tbody><!--declaramos en el body para rrecorrer la bd y pintarlo en la pag,principal--->
+                    <% for (var i = 0; i< tasks.length; i++) {%>
+                    <tr>
+                        
+                        <td><%= i+1 %></td><!---Aqui pintamos la base de datos-->
+                        <td><%= tasks[i].titulo %></td><!--Aqui va el titulo -->
+                        <td><%= tasks[i].descripcion %></td><!---Aqui va la descripcion-->
+                        <td>
+                            <a href="/estado/<%= tasks[i]._id %>" class="btn <%= tasks[i].status ? 'btn-success': 'btn-dark' %>">Estatus</a>
+                            <a href='/edit/<%= tasks[i]._id %>' class='btn btn-primary'>EDITAR</a>
+                            <a href='/delete/<%= tasks[i]._id %>' class='btn btn-danger'>ELIMINADO</a>
+                        </td>
+                    </tr>
+                    <% } %>
+                </tbody>
+            </table><!--aqui va el cuadro-->
+        </div><!--columna de 7-->
+    </div> 
+    
+    <%- include("./partials/-footer") %>
